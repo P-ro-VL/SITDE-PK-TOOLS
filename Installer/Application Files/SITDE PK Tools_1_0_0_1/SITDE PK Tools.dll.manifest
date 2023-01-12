@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SITDE PK Tools.exe" version="1.0.0.1" publicKeyToken="95d539ecf67e8136" language="vi-VN" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="SITDEPK_icon.ico" asmv2:publisher="HP" asmv2:product="SITDE PK Tools" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16856">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GEbvKe3+oCVN4BU6wAxZ0RY6tiFDv09ub/DlwpHn7hc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="SITDE PK Tools.deps.json" size="3757">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zZUpZUpwIIEuUfKCsgQFWL4vHmFmVRfIF7Jx1hJvYkQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDE PK Tools.dll" size="70616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rgck3wzEST50GaQIMPAEAOc1UnYs2kGdjysAZvELm6o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDE PK Tools.exe" size="197080">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>exco4LPRSl9/Om/7XIZoxOvKgJ6xTvZHZULTyAb1PVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDE PK Tools.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SITDEPK_icon.ico" size="42396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dWtvqVnPMhuKMRAvg4nLc+iDku8PYUAtRMpyP7PK7pU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PHONGPHONG28\FPTSHOP" issuerKeyHash="162ede06f9fad7d393f9ead57dd388637fa09ff6" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FhKX1BsLrucxp0ZVEj2ILQnuDo72TtIQndMs3e5//zQ=</DigestValue></Reference></SignedInfo><SignatureValue>TZbaIAUhyHUQAJI8MflHeYdYt7YTo7kjVdDBh2hGV6QrX0kDKpkcGr2ekRmgIqjy8mrvANHSOwdRSXDpJwKVpVEPoFIuYuBUq+xc0EAokmzNF7ghBVspRA3SBHMnINHaF6IQDio0nMnAhqzRtUOo1PX1jLsAUDihijmJdL5AKyc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uNX0KIaE1EOb9pm6EvDuxYFoH3O78jN0gl2SfiDlRtBAIcYqrY6Ft75ag8RT80DVpZ+UkYEwmAvGUfMboHMgans8XvdRZ+pTFNTexkYGS/IYaiX3VwIeocCjiSRPOnvuPD44JxvEzqRjmkL9kqw+N5Lu3oy96cSXaA1vXvWEUkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34ff7feedd2cd39d10d24ef68e0eee092d883d125546a731e7ae0b1bd4971216" Description="" Url=""><as:assemblyIdentity name="SITDE PK Tools.exe" version="1.0.0.1" publicKeyToken="95d539ecf67e8136" language="vi-VN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHONGPHONG28\FPTSHOP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Bk42omtyxnmbzalFmCqkd2DR8gWAL3M8Y2glyWDLfgA=</DigestValue></Reference></SignedInfo><SignatureValue>L9BbrErH0Q7AugGeCmHPK67xL0RxsTztvp5lWgV6QmKzqI0WKndU0GdjcGOJlRAqhrr8Nja3NO6WEOmxCa1aFJeT4qaIkTjp6g06dFkElbFFwsisniOC3ZLpjZ4cc+qa2OkOOpB9Ah6pRfP1SpAZjkBioUdjA/Ml+LpupDFeX+g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uNX0KIaE1EOb9pm6EvDuxYFoH3O78jN0gl2SfiDlRtBAIcYqrY6Ft75ag8RT80DVpZ+UkYEwmAvGUfMboHMgans8XvdRZ+pTFNTexkYGS/IYaiX3VwIeocCjiSRPOnvuPD44JxvEzqRjmkL9kqw+N5Lu3oy96cSXaA1vXvWEUkk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQGVe0l8UGZqxGCTTy+t5bkjANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABIAE8ATgBHAFAASABPAE4ARwAyADgAXABGAFAAVABTAEgATwBQMB4XDTIzMDExMTEzMjc1OVoXDTI0MDExMTE5Mjc1OVowMzExMC8GA1UEAx4oAFAASABPAE4ARwBQAEgATwBOAEcAMgA4AFwARgBQAFQAUwBIAE8AUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAuNX0KIaE1EOb9pm6EvDuxYFoH3O78jN0gl2SfiDlRtBAIcYqrY6Ft75ag8RT80DVpZ+UkYEwmAvGUfMboHMgans8XvdRZ+pTFNTexkYGS/IYaiX3VwIeocCjiSRPOnvuPD44JxvEzqRjmkL9kqw+N5Lu3oy96cSXaA1vXvWEUkkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAqDY7KImKCK991I1Bm47+7b2mpMc+v58OsJElhZnW132Ro+mSr6wSdqujRZDvguQ+WIgKZ9LylBqE5Ic4d5KHyMDOx6R1OU+raFPXJdsUZ07J6YEbT4/7UbxEc310ZPTGvGfJt7yNbA1cELcyg2TvuLeuLnmwS/u2ltXGvpMxycA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
